@@ -1,0 +1,171 @@
+body {
+  font-family: 'Josefin Slab', serif;
+  font-family: 'Lato', sans-serif;
+}
+
+nav {
+height: 50px;
+width: 100%;
+top: 0;
+position: fixed;
+z-index: 999;
+background-color: white;
+}
+nav ul li {
+  float: left;
+  padding-right: 20px;
+  line-height: 50px;
+  font-family: 'Josefin Slab', Arial, serif;
+  font-size: 1.3em;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+header{
+  height: 500px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+section{
+  width: 1024px;
+  height: auto;
+  min-height: 600px;
+  margin: 0 auto;
+}
+footer {
+  height: 50px;
+  width: 1024px;
+  line-height: 50px;
+  margin: 0 auto;
+  color: #626566;
+}
+
+header button{
+  height: 50px;
+  width: 150px;
+  background-color: rgba(232, 103, 90, 1);
+  border: 0;
+  border-radius: 3px;
+  color: white;
+  font-family: 'Lato', Arial, serif;
+  font-weight: 400;
+  font-size: 1em;
+  position: absolute;
+  z-index: 101;
+  margin-left: -75px;
+}
+
+
+h1 {
+  font-family: 'Josefin Slab', Arial, serif;
+  font-size: 4em;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+hr {
+  border-width: 1px 1px 0;
+  border-style: solid;
+  border-color: lightgrey;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.post img{
+  width: 1024px;
+  margin: 0 auto;
+}
+.post ul li {
+  float: left;
+  padding-right: 30px;
+}
+.whitenavbg{
+width: 1024px;
+margin: 0 auto;
+
+}
+.spacer {
+  height: 50px;
+  width: 100%;
+}
+.spaceover {
+  height: auto;
+  margin-top: 10px;
+}
+
+.titelheader, .titelheader2 {
+  width: 100%;
+  color: white;
+  font-size: 5em;
+  position: absolute;
+  z-index: 100;
+  text-align: center;
+  line-height: 400px;
+  font-family: 'Lato', Arial, serif;
+  font-weight: 700;
+}
+.titelheader2 {
+  line-height: 525px;
+  font-size: 2em;
+  font-weight: 400;
+}
+.foto {
+  float: left;
+  position: absolute;
+  height: 500px;
+  width: 100%;
+  background-image: url(img/little_waterfall_background_by_austriaangloalliance-d6es42j.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-filter: brightness(40%);
+}
+.centerover {
+  width: 219px;
+  text-align: center;
+}
+.centerbutton {
+  text-align: center;
+  padding-top: 300px;
+}
+.centerbuttontext {
+  text-align: center;
+}
+.space80 {
+  height: 80px;
+}
+.space50 {
+  height: 50px;
+}
+.space30 {
+  height: 30px;
+}
+.space10 {
+  height: 10px;
+}
+.text {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: 'Lato', Arial, serif;
+  margin-bottom: 10px;
+  color: #626566;
+}
+.borderpost {
+  border: 1px solid lightgrey;
+}
+.knoppen {
+  float: left;
+}
+.footerborder {
+  width: 100%;
+  margin-top: 30px;
+  border-top: 1px solid lightgrey;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
